@@ -8,6 +8,11 @@ export const theme = {
     lightGray: '#F5F5F5',
     darkGray: '#BDBDBD',
   },
-  fonts: {},
+  fonts: {
+    family: {
+      sans: "'Open Sans', sans-serif",
+      montserrat: "'Montserrat', sans-serif",
+    },
+  },
   spacings: {},
 };
