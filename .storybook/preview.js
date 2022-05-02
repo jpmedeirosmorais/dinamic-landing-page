@@ -10,6 +10,23 @@ export const parameters = {
       date: /Date$/,
     },
   },
+  backgrounds: {
+    default: 'gray',
+    values: [
+      {
+        name: 'white',
+        value: theme.colors.white,
+      },
+      {
+        name: 'black',
+        value: theme.colors.black,
+      },
+      {
+        name: 'gray',
+        value: theme.colors.darkGray,
+      }
+    ],
+  },
 };
 
 export const decorators = [
